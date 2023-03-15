@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
-# Set password for VNC access
-echo "password123" | vncpasswd -f > ~/.vnc/passwd
-chmod 600 ~/.vnc/passwd
 
-echo -e "#\!/bin/sh \nunset SESSION_MANAGER \nunset DBUS_SESSION_BUS_ADDRESS \nexec startxfce4" > ~/.vnc/xstartup
+mkdir ~/.vnc
+# Set password for VNC access
+vncpasswd -f < ~/vnc_password.txt > ~/.vnc/passwd
+chmod 600 ~/.vnc/passwd
+rm ~/vnc_password.txt
+
+echo -e '#!/bin/sh \nunset SESSION_MANAGER \nunset DBUS_SESSION_BUS_ADDRESS \nexec startxfce4' > ~/.vnc/xstartup
 chmod u+x ~/.vnc/xstartup
 
 # Start vncserver
