@@ -30,7 +30,7 @@ VNC 登录密码存储在文件 `config/vnc_password.txt`, 默认为 `password`.
 
 - [x] 技术验证: 成功在 Win10 环境下使用 Docker + Xfce + Vnc 运行并登录了 Kylin 微信
 - [x] 编写 dockerfile
-- [ ] 通过 XLib 定位微信窗口位置
+- [x] 定位微信窗口位置
 - [ ] 找出用户名截图
 
 ## Bugs

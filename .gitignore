@@ -132,3 +132,6 @@ dmypy.json
 .idea/
 .vscode/
 
+# project
+test/out/
+^test/out/.gitkeep

@@ -1,0 +1,8 @@
+0x01c00005 -1 0    0    1024 27   4e799de7127c xfce4-panel
+0x01c0000f -1 -9999 -9999 306  3    4e799de7127c xfce4-panel
+0x01c00013 -1 359  719  306  49   4e799de7127c xfce4-panel
+0x02000009 -1 0    0    1024 768  4e799de7127c Desktop
+0x05c00005  0 134  121  817  483  4e799de7127c Terminal - IPython: Desktop/photos
+0x05c0007c  1 10   85   817  483  4e799de7127c Terminal - we@4e799de7127c: ~
+0x05800001  1 57   77   910  640  4e799de7127c weixin
+0x05c002d3  0 146  186  817  483  4e799de7127c Terminal - we@4e799de7127c: ~/Desktop
