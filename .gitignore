@@ -133,5 +133,5 @@ dmypy.json
 .vscode/
 
 # project
-test/out/
-^test/out/.gitkeep
+test/out/*
+!test/out/.gitkeep
